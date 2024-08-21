@@ -2,7 +2,7 @@ const paillierBigint = require('paillier-bigint');
 const fs = require('fs');
 const path = require('path');
 
-async function generateKeys() {
+async  function generateKeys() {
   const { publicKey, privateKey } = await paillierBigint.generateRandomKeys(2048);
 
  
